@@ -49,3 +49,7 @@ Minesweeper/
 ├── mvnw / mvnw.cmd        # Maven wrapper scripts (Windows and Unix)
 └── pom.xml                # Maven build configuration
 ```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
