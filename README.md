@@ -18,10 +18,10 @@ Download the installer from the [Releases](https://github.com/DannyNagelMath/Min
 
 ## Tech Stack
 
-| | |
-|---|---|
-| Language | Java 17 |
-| UI Framework | JavaFX |
+| |                             |
+|---|-----------------------------|
+| Language | Java 21                    |
+| UI Framework | JavaFX                      |
 | Build & Packaging | Maven · jpackage · launch4j |
 
 ## Build from Source
