@@ -26,11 +26,19 @@ Download the installer from the [Releases](https://github.com/DannyNagelMath/Min
 
 ## Build from Source
 
-```bash
+Clone the repository:
+
+```
 git clone https://github.com/DannyNagelMath/Minesweeper.git
 ```
 
-Open the project in IntelliJ (or your preferred IDE) and run the `Runner` class. Requires Java 21+ and JavaFX 21+ on your PATH.
+Open the project in IntelliJ IDEA. IntelliJ should automatically detect the `pom.xml` and import it as a Maven project. If prompted, click **Trust Project**.
+
+JavaFX is bundled via Maven dependencies, so **no separate JavaFX installation is required**. However, you do need **JDK 21+** installed.
+
+To run the app:
+- **From IntelliJ:** Right-click `Runner.java` → **Run 'Runner.main()'**
+- **From Maven:** Run `mvn clean javafx:run` in the terminal
 
 ## Project Structure
 
