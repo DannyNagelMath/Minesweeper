@@ -30,7 +30,7 @@ Download the installer from the [Releases](https://github.com/DannyNagelMath/Min
 git clone https://github.com/DannyNagelMath/Minesweeper.git
 ```
 
-Open the project in IntelliJ (or your preferred IDE) and run the `Runner` class. Requires Java 17+ and JavaFX 17+ on your PATH.
+Open the project in IntelliJ (or your preferred IDE) and run the `Runner` class. Requires Java 21+ and JavaFX 21+ on your PATH.
 
 ## Project Structure
 
