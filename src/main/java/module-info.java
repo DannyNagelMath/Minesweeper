@@ -1,8 +1,8 @@
-module com.mysweeperfx.mysweeperfx {
+module com.dannynagel.minesweeper {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.mysweeperfx.mysweeperfx to javafx.fxml;
-    exports com.mysweeperfx.mysweeperfx;
+    opens com.dannynagel.minesweeper to javafx.fxml;
+    exports com.dannynagel.minesweeper;
 }

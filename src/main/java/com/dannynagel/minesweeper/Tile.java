@@ -1,4 +1,4 @@
-package com.mysweeperfx.mysweeperfx;
+package com.dannynagel.minesweeper;
 
 import javafx.geometry.Insets;
 import javafx.scene.control.Label;

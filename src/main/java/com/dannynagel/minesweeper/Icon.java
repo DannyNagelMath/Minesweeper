@@ -1,4 +1,4 @@
-package com.mysweeperfx.mysweeperfx;
+package com.dannynagel.minesweeper;
 
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;

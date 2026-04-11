@@ -1,4 +1,4 @@
-package com.mysweeperfx.mysweeperfx;
+package com.dannynagel.minesweeper;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.MySweeperFX</groupId>
+    <groupId>com.dannynagel.minesweeper</groupId>
     <artifactId>MySweeperFX</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>MySweeperFX</name>
@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.mysweeperfx.mysweeperfx/com.mysweeperfx.mysweeperfx.Runner
+                            <mainClass>com.dannynagel.minesweeper/com.dannynagel.minesweeper.Runner
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
@@ -85,7 +85,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.mysweeperfx.mysweeperfx.Runner</mainClass>
+                                    <mainClass>com.dannynagel.minesweeper.Runner</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
