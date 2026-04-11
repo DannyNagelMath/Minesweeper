@@ -36,8 +36,16 @@ Open the project in IntelliJ (or your preferred IDE) and run the `Runner` class.
 
 ```
 Minesweeper/
-├── Runner        # Application entry point; manages scenes and difficulty menu
-├── GameBoard     # Grid logic — mine placement, reveal, flood-fill
-├── Tile          # Individual cell state and rendering
-└── Icon          # Custom-drawn face/icon graphics
+├── .mvn/wrapper/          # Maven wrapper support files
+├── src/main/java/
+│   ├── com/dannynagel/minesweeper/
+│   │   ├── Runner.java    # Application entry point; manages scenes and difficulty menu
+│   │   ├── GameBoard.java # Grid logic — mine placement, reveal, flood-fill
+│   │   ├── Tile.java      # Individual cell state and rendering
+│   │   └── Icon.java      # Custom-drawn face/icon graphics
+│   └── module-info.java   # Java module declaration
+├── docs/                  # Screenshots and documentation assets
+├── .gitignore
+├── mvnw / mvnw.cmd        # Maven wrapper scripts (Windows and Unix)
+└── pom.xml                # Maven build configuration
 ```
